@@ -1,0 +1,26 @@
+h4{
+    text-align: right;
+    font-size: 17px;
+}
+div{
+    text-align: right;
+    white-space: pre-line;
+    font-size: 17px;
+}
+h2{
+    text-indent: 30px;
+    text-decoration: underline;
+    font-family: 'Bad Script', cursive;
+}
+.style1{
+    text-align: justify;
+    text-indent: 30px;
+    font-family: 'Bad Script', cursive;
+    font-size: 20px;
+    line-height: 1.5em;
+    white-space: pre-line;
+}
+p span{
+    white-space: pre-line;
+    font-size: 17px;
+}
