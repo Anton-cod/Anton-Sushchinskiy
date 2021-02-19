@@ -1,0 +1,48 @@
+.b{
+    background-image: url("img/b.png");
+    background-repeat: repeat-x;
+    background-position: bottom;
+    width: 70%;
+}
+.l{
+    background-image: url("img/l.png");
+    background-repeat: repeat-y;
+    background-position: left;
+}
+.t{
+    background-image: url("img/t.png");
+    background-repeat: repeat-x;
+    background-position: top;
+}
+.r{
+    background-image: url("img/r.png");
+    background-repeat: repeat-y;
+    background-position: right;
+}
+.b_r{
+    background-image: url("img/r-b.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.b_l{
+    background-image: url("img/l-b.png");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+.t_l{
+    background-image: url("img/l-t.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+.t_r{
+    background-image: url("img/r-t.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+.text{
+    padding: 3em;
+}
+p{
+    margin: 0;
+}

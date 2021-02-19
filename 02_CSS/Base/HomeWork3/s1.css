@@ -1,0 +1,23 @@
+.s1{
+    width: 15em;
+    background-color: rgba(77,59,59,0.39);
+    float: left;
+}
+.s2{
+    width: 84%;
+    background-color: rgba(96,150,82,0.84);
+    margin-bottom: 2em;
+    float: left;
+}
+.s3{
+    width: 100%;
+    background-color: rgba(209,6,20,0.84);
+    float: left;
+    max-height: max-content;
+}
+img{
+    float: right;
+}
+p{
+    margin: 0;
+}

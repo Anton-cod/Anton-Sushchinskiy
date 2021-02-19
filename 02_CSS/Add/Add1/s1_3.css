@@ -1,0 +1,9 @@
+div{
+    width: 70%;
+    border-image: url(img/ramka.png) 100 stretch;
+    border-style: solid;
+    border-width: 50px;
+}
+p{
+    margin: 0;
+}

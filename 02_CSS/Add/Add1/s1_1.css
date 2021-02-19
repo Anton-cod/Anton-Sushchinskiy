@@ -1,0 +1,10 @@
+div{
+    width: 70%;
+    padding: 3em;
+    background-image: url("img/r-b.png"), url("img/l-b.png"), url("img/l-t.png"), url("img/r-t.png"), url("img/b.png"), url("img/l.png"), url("img/t.png"), url("img/r.png");
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, repeat-x, repeat-y, repeat-x, repeat-y;
+    background-position: bottom right, bottom left, top left, top right, bottom, left, top, right;
+}
+p{
+    margin: 0;
+}

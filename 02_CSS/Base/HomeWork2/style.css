@@ -1,0 +1,20 @@
+.s{
+    background-color: black;
+    color: green;
+    width: 400px;
+    max-height: 80px;
+    overflow: auto;
+    display: block;
+}
+ul{
+    width: 350px;
+    list-style-type: upper-roman;
+    font-weight: bold;
+}
+ul ul{
+    list-style-type: lower-roman;
+    font-weight: normal;
+}
+p{
+    margin: 0;
+}

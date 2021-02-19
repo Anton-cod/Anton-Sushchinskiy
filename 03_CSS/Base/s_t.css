@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Menu{
+    font-size: 30px;
+}
+.Menu > div{
+    background-color: darkslategray;
+    border: solid 1px;
+    display: table-cell;
+    width: 200px;
+    float: left;
+}
+.Menu2 > div{
+    background-color: darkslategray;
+    border: solid 1px;
+    width: 200px;
+    font-size: 30px;
+    float: left;
+}
+
+@media all and (max-width: 1200px){
+    .Menu2 > div{
+        display: none;
+    }
+    .Menu{
+        display: flex;
+        flex-direction: column;
+    }
+}

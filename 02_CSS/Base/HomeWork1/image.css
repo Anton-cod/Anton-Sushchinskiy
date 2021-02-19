@@ -1,0 +1,52 @@
+.image3{
+    background-image: url("cards.png");
+    width: 146px;
+    height: 202px;
+    background-position: -140px -194px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.image5{
+    background-image: url("cards.png");
+    width: 146px;
+    height: 202px;
+    background-position: -427px -590px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.image9{
+    background-image: url("cards.png");
+    width: 146px;
+    height: 198px;
+    background-position: -283px -1389px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.image31{
+    background-image: url("cards.png");
+    width: 41px;
+    height: 199px;
+    background-position: 3px -194px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative;
+}
+.image51{
+    background-image: url("cards.png");
+    width: 37px;
+    height: 199px;
+    background-position: -433px -593px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative;
+}
+.image91{
+    background-image: url("cards.png");
+    width: 147px;
+    height: 199px;
+    background-position: -285px -1390px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: absolute;
+}
