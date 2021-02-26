@@ -11,22 +11,29 @@
     border: solid 1px;
     display: table-cell;
     width: 200px;
-    float: left;
+    position: relative;
+}
+.Menu2{
+    display: none;
+    width: 200px;
 }
 .Menu2 > div{
-    background-color: darkslategray;
+    background-color: cadetblue;
     border: solid 1px;
-    width: 200px;
-    font-size: 30px;
-    float: left;
+}
+.Menu > div:hover .Menu2{
+    display: block;
+    position: absolute;
 }
 
 @media all and (max-width: 1200px){
-    .Menu2 > div{
-        display: none;
-    }
     .Menu{
         display: flex;
         flex-direction: column;
+    }
+    .Menu:hover .Menu2{
+        left: 90%;
+        top: 10%;
+        z-index: 1;
     }
 }

@@ -5,34 +5,36 @@
 }
 .Menu{
     font-size: 30px;
+    height: 0;
 }
 .Menu > div{
+    position: relative;
     background-color: darkslategray;
     border: solid 1px;
     display: table-cell;
     width: 200px;
-    position: relative;
 }
 .Menu2{
-    display: none;
-    width: 200px;
-}
-.Menu2 > div{
+    width: 170px;
     background-color: cadetblue;
     border: solid 1px;
-}
-.Menu > div:hover .Menu2{
-    display: block;
     position: absolute;
-
+    opacity: 0;
+    transition: .55s;
+}
+.Menu2 > div{
+    border: solid 1px;
+}
+.Menu div:hover .Menu2{
+    opacity: 1;
 }
 
 @media all and (max-width: 1200px){
-    .Menu{
+    .Menu {
         display: flex;
         flex-direction: column;
     }
-    .Menu:hover .Menu2{
+    .Menu2{
         left: 90%;
         top: 10%;
         z-index: 1;

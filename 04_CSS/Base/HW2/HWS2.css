@@ -1,0 +1,21 @@
+table{
+    border-collapse: collapse;
+    width: 700px;
+}
+th{
+    background-color: dimgray;
+    border: dotted;
+}
+td{
+    border: dotted;
+}
+tr td:first-child{
+    text-align: left;
+}
+caption{
+    caption-side: bottom;
+}
+tr:hover{
+    background-color: lightseagreen;
+    cursor: pointer;
+}

@@ -1,0 +1,71 @@
+div{
+    border: solid;
+    width: 800px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 0 15px;
+}
+div p{
+    text-indent: 20px;
+    text-align: justify;
+    margin: 0;
+}
+a.http::before{
+    content: url("../../Base/extref.png");
+    padding: 2px;
+}
+a.doc::after{
+    content: url("../../Base/logo-doc.jpg");
+    padding: 2px;
+}
+a.pdf::after{
+    content: url("../../Base/logo-pdf.png");
+    padding: 2px;
+}
+a.zip::after{
+    content: url("../../Base/logo-zip.gif");
+    padding: 2px;
+}
+ul li{
+    list-style: none;
+}
+li::before{
+    content: url("../../Base/logo-list.jpg");
+    padding: 2px;
+}
+ul li a{
+    position: relative;
+}
+ul li a.docH::after{
+    position: absolute;
+    content: "";
+    background-image: url("../../Base/logo-doc.jpg");
+    padding: 8px;
+    margin-left: 3px;
+    opacity: 0;
+}
+ul li a.docH:hover::after{
+    opacity: 1;
+}
+ul li a.pdfH::after{
+    position: absolute;
+    content: "";
+    background-image: url("../../Base/logo-pdf.png");
+    padding: 8px;
+    margin-left: 3px;
+    opacity: 0;
+}
+ul li a.pdfH:hover::after{
+    opacity: 1;
+}
+ul li a.zipH::after{
+    position: absolute;
+    content: "";
+    background-image: url("../../Base/logo-zip.gif");
+    padding: 8px;
+    margin-left: 3px;
+    opacity: 0;
+}
+ul li a.zipH:hover::after{
+    opacity: 1;
+}

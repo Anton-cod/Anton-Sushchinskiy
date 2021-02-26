@@ -1,0 +1,25 @@
+table{
+    border: solid 1px;
+    width: 500px;
+    height: 500px;
+    counter-reset: number 65;
+    list-style-type: none;
+    text-align: center;
+    font-weight: bolder;
+}
+td{
+    border: solid 1px;
+}
+tr:nth-child(odd) td:nth-child(even){
+    background-color: black;
+    color: white;
+}
+tr:nth-child(even) td:nth-child(odd){
+    background-color: black;
+    color: white;
+}
+td::after{
+    counter-increment: number -1;
+    content: counter(number);
+    font-size: 50px;
+}

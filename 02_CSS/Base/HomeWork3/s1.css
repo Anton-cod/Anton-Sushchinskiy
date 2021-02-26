@@ -4,16 +4,13 @@
     float: left;
 }
 .s2{
-    width: 84%;
     background-color: rgba(96,150,82,0.84);
     margin-bottom: 2em;
-    float: left;
+    margin-left: 240px;
+    overflow: hidden;
 }
 .s3{
-    width: 100%;
     background-color: rgba(209,6,20,0.84);
-    float: left;
-    max-height: max-content;
 }
 img{
     float: right;
