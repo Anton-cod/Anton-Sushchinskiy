@@ -1,0 +1,31 @@
+table{
+    border-collapse: collapse;
+    width: 700px;
+    margin: 10px;
+}
+th{
+    background-color: dimgray;
+    border: dotted;
+}
+td{
+    border: dotted;
+}
+tr td:first-child{
+    text-align: left;
+}
+caption{
+    caption-side: bottom;
+}
+tr:hover{
+    background-color: lightseagreen;
+    cursor: pointer;
+}
+button{
+    margin: 10px;
+    margin-bottom: -15px;
+    background-color: mintcream;
+    font-weight: bold;
+}
+.slideUP{
+    text-align: center;
+}

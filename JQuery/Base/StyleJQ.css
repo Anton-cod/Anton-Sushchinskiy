@@ -1,0 +1,20 @@
+input[type="password"]{
+    font-size: 25px;
+    border: solid 3px;
+    margin-top: 2px;
+}
+legend{
+    font-size: 20px;
+    font-weight: bolder;
+}
+fieldset{
+    width: 330px;
+}
+#check{
+    width: 250px;
+    height: 35px;
+    margin-left: 3px;
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+}
